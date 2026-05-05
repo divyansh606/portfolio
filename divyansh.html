@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Divyansh Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: rgb(158, 107, 107);
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    color: gold;
+    text-shadow: 0 0 15px gold;
+}
+
+header p {
+    color: #972e2e;
+    margin-top: 10px;
+}
+
+/* SECTION */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* CARD DESIGN */
+.card {
+    background: rgba(185, 26, 188, 0.05);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px 0;
+    transition: 0.4s;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 0 25px rgba(255,215,0,0.5);
+}
+
+/* HEADINGS */
+h2 {
+    color: gold;
+    margin-bottom: 10px;
+}
+
+/* BUTTONS */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background: gold;
+    color: black;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background: rgb(29, 158, 202);
+    border-top: 1px solid gold;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Divyansh Srivastava</h1>
+    <p>Aspiring Developer | Creative Thinker</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            I am a B.Tech student passionate about technology, web development, and C programming.
+            I enjoy building creative and practical projects that enhance my problem-solving skills.
+            I am continuously learning new technologies to grow as a developer.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Skills</h2>
+        <p>HTML, CSS, C Programming, MS Excel, Canva</p>
+    </div>
+
+    <div class="card">
+        <h2>Projects</h2>
+        <p>
+            • Personal Portfolio Website<br>
+            • Visiting Card Design<br>
+            • Student Task Manager
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: cteddsp@gmail.com</p>
+        <a href="mailto:cteddsp@gmail.com" class="btn">Contact Me</a>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Divyansh Srivastava</p>
+</footer>
+
+</body>
+</html>
